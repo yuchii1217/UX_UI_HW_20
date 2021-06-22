@@ -1,0 +1,137 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+  }
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url(../images/transparency.png);
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+.navbar-nav {
+    margin-left: auto;
+  }
+  /*.navbar-nav mr-auto{
+      display: flex;
+    justify-content:flex-end;  
+  }*/
+  #navbarSupportedContent{
+    display: flex;
+      justify-content:flex-end;
+    }
+.navbar-collapse{
+    display: flex;
+    justify-content:flex-end;  
+}
+p{
+   margin:10rem;
+}
+h1{
+    padding:0 2rem;
+}
+.jumbotron-fluid .container{
+    width:300px;
+    margin-left: 0;
+}
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+.nav-item {
+    margin: 0px 15px;
+    }
+#userpersona{
+    background-color:#CCDDE0 ;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin:0;
+}
+#background{
+    background-color:#CCDDE0 ;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+#mainimage{
+    align-content: center;
+    width:90%;
+    height: auto;
+}
+.jumbotron-fluid{
+  background-image: url(../image/hero.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  height: calc(100vh-25px);
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.jumbotron-fluid2{
+    background-size:cover;
+    height: 200px;
+    height: calc(100vh-25px);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+  }
+
+.btn-info{
+    padding:50px;
+}
+.comingsoon{
+    /*outline: rgb(223, 223, 223) solid 2pt;*/
+    background-color:aliceblue;
+    font-size: 20pt;
+    text-align: center;
+    color: coral;
+    padding:30px 50px;
+    margin-top: 25px;
+    align-items: center;
+}
+.subHeading{
+        text-align: center;
+        border-bottom: 5px solid lightsalmon;
+        width:300px;
+        margin:50px auto;
+        color:#242424;
+        font-size:large;
+      }
+#title{
+    justify-content: center;
+}
+.btn{
+    background-color: salmon;
+}
+.emailContain{
+    background-color: slategray;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+  }
+  form{
+    width: 500px;
+    margin:35px auto;
+    padding:45px;
+    text-align: center;
+    border:1px solid #f2f2f2;
+    -webkit-box-shadow:0 1px 4px rgba(0,0,0,0,3),0 0 40px rgba(0,0,0,0,1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0,0,0,0,3),0 0 40px rgba(0,0,0,0,1) inset;
+  box-shadow:0 1px 4px rgba(0,0,0,0,1),0 0 40px rgba(0,0,0,0,1);
+  background-color:white;
+  }
+  .row{
+    align-items: center;
+    justify-content:left;
+    margin-top: 5em; 
+  }
+  .disclaimer{
+  color: white;
+    height:25px;
+ margin-bottom: 0px;
+  }
