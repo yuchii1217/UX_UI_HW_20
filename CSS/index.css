@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    justify-content: center;
+    justify-content:center!important;
   }
 .customNav {
     position: fixed;
@@ -13,10 +13,6 @@ body {
 .navbar-nav {
     margin-left: auto;
   }
-  /*.navbar-nav mr-auto{
-      display: flex;
-    justify-content:flex-end;  
-  }*/
   #navbarSupportedContent{
     display: flex;
       justify-content:flex-end;
@@ -26,7 +22,7 @@ body {
     justify-content:flex-end;  
 }
 p{
-   margin:10rem;
+   padding: 5px 8rem;
 }
 h1{
     padding:0 2rem;
@@ -135,3 +131,27 @@ h1{
     height:25px;
  margin-bottom: 0px;
   }
+.ui{
+margin:6rem !important;
+width: 75%;
+height: auto;
+}
+.lead{
+  min-width: 300px;
+  height: auto;
+  margin-left: 3rem;
+}
+.leadTitle{
+  font-size:xx-large;
+  color: #242424;
+  margin-left: 3rem;
+}
+.cardContainer {
+  text-align:center;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card {
+  margin: 0 auto;
+}
